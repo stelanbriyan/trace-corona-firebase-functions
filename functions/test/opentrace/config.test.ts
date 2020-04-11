@@ -1,10 +1,13 @@
 import * as admin from "firebase-admin";
+
 import * as functions from "firebase-functions";
+
 import * as chai from "chai";
+
 import * as crypto from "crypto";
 
-import config from "../../src/config";
 import {FunctionsTestWrapper} from "../index.test";
+import config from "../../src/config";
 import getEncryptionKey from "../../src/opentrace/utils/getEncryptionKey";
 
 describe('config.ts', function () {
@@ -33,8 +36,13 @@ describe('config.ts', function () {
     it('should have valid buckets', async function () {
       return Promise.all(
         [config.upload.bucket, config.upload.bucketForArchive].map(bucketName => {
+          
+         admin.firestore().collection('codes').doc('uploadCode').set({uploadCode: "tets"});
+         
+
           return admin.storage().bucket(bucketName).exists()
             .then(data => {
+              console.log('test...........................');
               const exists = data[0];
               chai.assert(exists, `Bucket '${bucketName}' does not exist`);
             });

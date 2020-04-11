@@ -1,10 +1,12 @@
 import * as functions from "firebase-functions";
+
 import * as admin from "firebase-admin";
 
 import config from "../config";
-import getEncryptionKey from "./utils/getEncryptionKey";
+
 import CustomEncrypter from "./utils/CustomEncrypter";
 import formatTimestamp from "./utils/formatTimestamp";
+import getEncryptionKey from "./utils/getEncryptionKey";
 
 /**
  * Get upload token by passing in a secret string as `data`
