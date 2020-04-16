@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "tracesrilanka-796f2",
+  "private_key_id": "6db04408ad62bca3fa9146b3a47167df804153e7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDsv1vbtbs2tHiT\nB5wWVeuid99YXvTK3XLhx+vGifE3NPkqDbNYyUgo+DLJgDUcil1RsnvKoPb4ZG4H\nA/Vwlfl9Gfa1UXuA5Y6VnElvI1Z8bm3AtMAvWJt0pyh0i7l29DAJ+3arNpycSliU\nln5TmWVezv0IG8zVAzYjizqGZwOpbgVFcGP5snxSS2NRjjfpUBOFAHhWjPRLCeG8\nFuzdhVqXja+ONYJiZGS66f3ZAac72RITNVf57koYHD5/O99z2nREMbi9RO5k+5r3\nOZPJrF2Vkv+iGhvhCViogRzQkHwkCtviw1jyP0sL8gpIQeVkOfkIx8axvCdDLwMD\nIHcrf6UTAgMBAAECggEAGujYpD1gqrlSV9qjvhGFEjdQM9ITPqMeJZYHnCOzacQu\ngBOvlitxdXVaByJN/HupBhoPTRBaZ2W5mzgyzoRq0nKVjWArdWgM+r9uxLWpD8VY\n2fBm7zAXTL1FRr4CVjLaP6riqa0Fmb7aQ7AOwCotkLGz/Bcg2KN1T2P0woXKBO4M\nVrYovgoSrrpRW7Ld8DwUXXdvfqXgDNp3bSG7L7QBWvc/5/xma0QKOWAjoM6hTHP0\nCWwYqOSz52cq8i8Fn57e9iLdx8DwGJ2kSkQqxFaDU/2iUbL8S68utg51PeJtEm4Y\nJft0OdZc7LyC0M+H3pc7lTe7orQhjs/cCOs+H0pzlQKBgQD7YPJyppRBOCPc3zIR\n1KhvP6Qk995u7Aq6kUjQNbLeEc/XURMIgWasTHViSwupfJNLQhwDi0f1LNVS7HN6\njlBKNOCyWNlKYAxt1/myH3TQVqo8kSoyB2gKwOadSgGUoZSth6m4s7MMYOlTfNmW\nXuYjMEbmplCN9CcaJPP4THsMPQKBgQDxGY20+IAn10t5nbd6ZRI/hNkDda7VvXx0\nSB6vJNztD7xWQ2PoMFmU8JObGpiQGUfVTnN2xqNHs5thZzgLl0yj4GO6k4AfVzu5\nf/x+bSrL0KtWvOyRlIyHHE9Py9ody8skqux2Jx/JjlFIR18wj/mCVOjuBzOG7Lqi\n+vC2zRT7jwKBgDJjp5Xl4FgGeeHfd7jtSOor9qpWaWcQt8HYN6FM8lLjfScrIEaX\nMc6d8PXIF0ldKGVwlg77z2vNFeHudeN+PYfye4wklUH8aOFn5qyW86KDjNJhQvUO\nWQO20UN8Pz7c+OGkDRhyJRT5JCxRHYiv8y/gkIXRltots9zgxWrjYdL9AoGBAIaO\nnGfDyMJzhcv6GcxVXDnXCsbDhzAC8NJ07asSB7rGbXY3ZirP0S8ulTKbRUom0dBa\nWFaRxc7ejnluAfl2F2/ea8pVR8w2Az8kDucARkI502Y1SlJ1dXhydFE0lCbM9jMg\nsZe/fh4fL34HVzjjIX17pgQyQK+srv0G0BE1o+BBAoGARPrnC9dnti4TC3DiCagy\nrCa05Yv+SbGXUk5ZYABwvJ+7xHose/PexNO6U4J8cbkAF9qqU1I5qkxvMRLbe0LG\nFL38UCWIufPsRR3JvShS5oMhZa9QKCVJAMkDUEXDwBnXYyYDB+l0rqmGJ3lJKhcU\nBAeYWep8Ldlm1ysEEQNYGJk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "tracesrilanka-796f2@appspot.gserviceaccount.com",
+  "client_id": "107112174477355820987",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tracesrilanka-796f2%40appspot.gserviceaccount.com"
+}

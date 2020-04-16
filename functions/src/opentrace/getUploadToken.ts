@@ -16,8 +16,12 @@ const getUploadToken = async (uid: string, data: any, context: functions.https.C
 
   let valid = false;
   if (data) {
+
+    //const ar=["123456","111111","222222"]
+
+    //await storeUploadCodes(ar);
     const uploadCodes = await retrieveUploadCodes();
-    console.log('getUploadToken:', `obtained ${uploadCodes.length} upload codes`);
+    console.log('getUploadToken:', `obtained ${uploadCodes.length} upload codes ${uploadCodes}`);
     valid = uploadCodes.find(x => x === data) !== undefined;
     console.log('getUploadToken:', `data is ${valid ? 'valid' : 'not valid'} code`);
   }

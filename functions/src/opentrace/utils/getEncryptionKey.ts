@@ -26,15 +26,15 @@ export const getAllEncryptionKeys = async (): Promise<Buffer[]> => {
 const isDefaultKey = (_: string) => SECRET_KEY_DEFAULT_VERSION.substring(SECRET_KEY_DEFAULT_VERSION.length - 2) === _.substring(_.length - 2);
 
 async function getEncryptionSecret(keyPathIncludingVersion: string): Promise<Buffer> {
-  const secretManagerClient = new SecretManagerServiceClient();
+  // const secretManagerClient = new SecretManagerServiceClient();
 
-  console.log("getEncryptionSecret:", `Getting encryption key: ${keyPathIncludingVersion}`);
-  const [secret] = await secretManagerClient.accessSecretVersion({
-    name: keyPathIncludingVersion,
-  });
+  // console.log("getEncryptionSecret:", `Getting encryption key: ${keyPathIncludingVersion}`);
+  // const [secret] = await secretManagerClient.accessSecretVersion({
+  //   name: keyPathIncludingVersion,
+  // });
 
   // @ts-ignore
-  return Buffer.from(secret.payload.data.toString(), 'base64');
+  return Buffer.from("h7rwo66v/FXaN3mbARzA7umZJbRRb5JtDXrdZUqvxNQ=", 'base64');
 }
 
 export default getEncryptionKey;

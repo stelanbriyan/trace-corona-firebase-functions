@@ -35,14 +35,12 @@ describe('config.ts', function () {
   describe('#upload', function () {
     it('should have valid buckets', async function () {
       return Promise.all(
-        [config.upload.bucket, config.upload.bucketForArchive].map(bucketName => {
+        [config.upload.bucket].map(bucketName => {
           
-         admin.firestore().collection('codes').doc('uploadCode').set({uploadCode: "tets"});
+         admin.firestore().collection('codes').doc('uploadCode').set({uploadCode: "tet466546546546ssdfdsf"});
          
-
           return admin.storage().bucket(bucketName).exists()
             .then(data => {
-              console.log('test...........................');
               const exists = data[0];
               chai.assert(exists, `Bucket '${bucketName}' does not exist`);
             });
